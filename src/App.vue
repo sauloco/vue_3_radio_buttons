@@ -31,21 +31,21 @@ export default defineComponent({
     const options: Option[] = [
       {
         id: 'option1',
-        title: 'Option 1',
-        subtitle: 'Subtitle of option 1',
+        title: `I'm looking to sell a property I own`,
+        subtitle: 'Awesome, we can get you listing published right now.',
         value: 1,
-        details: [{text: 'test link', target: 'https://example.com'}]
+        details: [{text: 'Create a listing now', target: 'https://example.com'},{text: 'Explore active listing in your area', target: 'https://example.com'}]
       },
       {
         id: 'option2',
-        title: 'Option 2',
-        subtitle: 'Subtitle of option 2',
+        title: `I'm looking for a good deal to buy`,
+        subtitle: `Great! We're so glad you're here. Start browsing and happy hunting.`,
         value: 2,
       },
       {
         id: 'option3',
-        title: 'Option 3',
-        subtitle: 'Subtitle of option 3',
+        title: `I'm just exploring`,
+        subtitle: `No problem, we'd love to help you learn about Aloha My Home.`,
         value: 3,
       },
     ];
