@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-8">
+  <div class="grid h-screen place-items-center">
     <form>
       <h2 class="text-gray-400">What are you looking to do?</h2>
       <RadioAccordion
@@ -63,11 +63,4 @@ export default defineComponent({
   },
 });
 </script>
-
-<style lang="postcss">
-/* Import Tailwind CSS */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-</style>
 
